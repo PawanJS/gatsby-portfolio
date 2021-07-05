@@ -26,7 +26,7 @@ class ContactForm extends React.Component {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'Contact Form', ...this.state })
+      body: encode({ 'form-name': 'contact', ...this.state })
     })
       .then(() => {
         const feedback = document.querySelector('.feedback');
@@ -55,12 +55,12 @@ class ContactForm extends React.Component {
           <TitleSection title="Contact" subtitle="Drop me a message" center />
           <Form
             onSubmit={this.handleSubmit}
-            name="Contact Form"
+            name="contact"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-            <input type="hidden" name="form-name" value="Contact Form" />
+            <input type="hidden" name="form-name" value="Contact" />
             <FormInput
               id="name"
               type="text"
