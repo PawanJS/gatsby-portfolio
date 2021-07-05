@@ -1,0 +1,19 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+
+@import 'tailwindcss/utilities';
+
+.blog-text {
+  line-height: 2rem;
+}
+
+.screen-reader {
+  position: absolute;
+  top: 0;
+  left: -1000000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
