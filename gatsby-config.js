@@ -40,13 +40,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pawan-JS-Portfolio`,
+        name: `Pawan-JS`,
         short_name: `JS-Blogs`,
         start_url: `/`,
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
-        icon: `src/assets/images/favicon.svg`
+        icon: `src/assets/images/favicon.svg`,
+        icon_options: {
+          purpose: `any maskable`
+        }
       }
     },
     `gatsby-plugin-offline`,
