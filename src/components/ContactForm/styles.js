@@ -10,7 +10,7 @@ export const Textarea = styled.textarea`
 `;
 
 export const Label = styled.label`
-  max-width: 260px;
+  max-width: 16.25rem;
 
   ${tw`w-full`};
 `;
