@@ -5,15 +5,15 @@ import Loader from '../components/ui/loader';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 // import Posts from 'components/Posts';
-import Newsletter from 'components/Newsletter';
+// import Newsletter from 'components/Newsletter';
 
 const Posts = loadable(() => import('components/Posts'), {
   fallback: <Loader />
 });
 
-// const Newsletter = loadable(() => import('components/Newsletter'), {
-//   fallback: <Loader />
-// });
+const Newsletter = loadable(() => import('components/Newsletter'), {
+  fallback: <Loader />
+});
 
 const BlogPage: React.FC = () => {
   return (

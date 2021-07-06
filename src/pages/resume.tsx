@@ -7,7 +7,7 @@ import SEO from 'components/SEO';
 // import Projects from 'components/Projects';
 // import Education from 'components/Education';
 // import Skills from 'components/Skills';
-import ContactForm from 'components/ContactForm';
+// import ContactForm from 'components/ContactForm';
 
 const Projects = loadable(() => import('components/Projects'), {
   fallback: <Loader />
@@ -18,9 +18,9 @@ const Education = loadable(() => import('components/Education'), {
 const Skills = loadable(() => import('components/Skills'), {
   fallback: <Loader />
 });
-// const ContactForm = loadable(() => import('components/ContactForm'), {
-//   fallback: <Loader />
-// });
+const ContactForm = loadable(() => import('components/ContactForm'), {
+  fallback: <Loader />
+});
 
 const ResumePage: React.FC = () => (
   <Layout>
