@@ -16,7 +16,7 @@ Let’s say you need a fast, simple, secure, and cheap website; then a static-ba
 
 **Static vs dynamic websites**
 
-First of all, let us clear up what the main differences between static and dynamic website are:
+First of all, let us clear up what the main differences between static and dynamic websites are:
 A static website is where files are pre-built on the server and fetched once on the client without a server.
 
 Static sites are just a bunch of HTML files. The server builds the files once when you update something on your site. Because of this, the website becomes fast, easy to work with, and secure! We will drill deeper into these benefits later on.

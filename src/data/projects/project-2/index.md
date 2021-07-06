@@ -7,4 +7,4 @@ endDate: 'Nov 2020'
 link: 'https://bankist-web-by-pawanjs.netlify.app/'
 ---
 
-Bankist is a minimal banking website for a bank. This website is based on the principal of minimalism and user best design practices to enhance user interface.
+Bankist is a minimal banking website for a bank. This website is based on the principle of minimalism and user best design practices to enhance the user interface.
