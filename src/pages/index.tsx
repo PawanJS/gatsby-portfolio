@@ -12,6 +12,9 @@ import SEO from 'components/SEO';
 const HeroBanner = loadable(() => import('components/HeroBanner'), {
   fallback: <Loader />
 });
+const Projects = loadable(() => import('components/ProjectImages'), {
+  fallback: <Loader />
+});
 const Services = loadable(() => import('components/Services'), {
   fallback: <Loader />
 });
@@ -27,6 +30,7 @@ const IndexPage: React.FC = () => {
     <Layout>
       <SEO title="About Me" />
       <HeroBanner />
+      <Projects />
       <Services />
       <hr />
       <Testimonials />
