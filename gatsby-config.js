@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `PawanJS`,
+    title: `Pawan JS`,
     description: `I enjoy building everything from small business sites to rich interactive web apps. If you are an employer looking to hire, you can get in touch with me here.`,
     author: `Pawan JS`
   },
