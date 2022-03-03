@@ -1,5 +1,5 @@
 ---
 category: 'skills'
 title: 'Figma'
-percentage: 60
+percentage: 80
 ---

@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 6
 company: 'Forkify'
 type: 'Javascript API app'
 startDate: 'Jan 2021'

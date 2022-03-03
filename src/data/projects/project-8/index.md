@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 8
 company: 'Hester'
 type: 'Gatsby E-commerce'
 startDate: 'May 2021'

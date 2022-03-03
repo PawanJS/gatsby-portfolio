@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 6
 company: 'Explorix'
 type: 'React Landing Page'
 startDate: 'Mar 2021'

@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 1
 company: 'Portfolio template'
 type: 'Portfolio'
 startDate: 'Sep 2020'

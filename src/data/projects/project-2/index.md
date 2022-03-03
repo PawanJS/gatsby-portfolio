@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 2
 company: 'Bankist-Website'
 type: 'Landing page'
 startDate: 'Oct 2020'

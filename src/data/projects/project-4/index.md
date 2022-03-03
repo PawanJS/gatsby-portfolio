@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 4
 company: 'Mapty'
 type: 'Javascript web app'
 startDate: 'Nov 2020'

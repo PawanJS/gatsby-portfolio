@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 7
 company: 'Crwn-clothing'
 type: 'React E-commerce'
 startDate: 'Apr 2021'

@@ -17,7 +17,7 @@ const Projects = () => {
       }
       allMarkdownRemark(
         filter: { frontmatter: { category: { eq: "projects" } } }
-        sort: { order: DESC, fields: fileAbsolutePath }
+        sort: { order: DESC, fields: frontmatter___number }
       ) {
         edges {
           node {

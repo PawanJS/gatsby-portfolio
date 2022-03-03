@@ -1,5 +1,6 @@
 ---
 category: 'projects'
+number: 3
 company: 'Bankist-App'
 type: 'Banking web app'
 startDate: 'Nov 2020'
