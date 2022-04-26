@@ -1,7 +1,7 @@
 ---
 category: 'projectsImages'
-number: 10
-title: 'Photo_World'
-cover: './pizza-way.jpg'
-link: 'https://pizza-way.vercel.app/'
+number: 11
+title: 'CRUD App'
+cover: './crud-app.png'
+link: 'https://crud-app-frontend.vercel.app/'
 ---
